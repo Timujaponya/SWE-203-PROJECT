@@ -1,0 +1,12 @@
+@{
+    ViewData["Title"] = "Logout";
+}
+
+<h2>Çıkış Yap</h2>
+<hr />
+<p>Çıkış yapmak istediğinizden emin misiniz?</p>
+
+<form asp-action="Logout" method="post">
+    <button type="submit" class="btn btn-primary">Çıkış Yap</button>
+    <a asp-action="Index" class="btn btn-secondary">İptal</a>
+</form>
